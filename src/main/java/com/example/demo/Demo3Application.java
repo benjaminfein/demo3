@@ -14,7 +14,7 @@ import org.springframework.boot.SpringApplication;
 public class Demo3Application {
 
     public static void main(String[] args) {
-        Product pedal = new CyclingProducts("Bicycle", "500$", 11,
+        Product bicycle = new CyclingProducts("Bicycle", "500$", 11,
                 150, 20, 100, "Aluminium",
                 false, "Road Bike");
 
@@ -35,7 +35,7 @@ public class Demo3Application {
 
         //Методы выводил в переопределенном методе toString()
 
-        System.out.println(pedal);
+        System.out.println(bicycle);
         System.out.println(swimmingGlasses);
         System.out.println(tapes);
         System.out.println(an225);
