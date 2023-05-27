@@ -44,8 +44,8 @@ public final class RunningProducts extends SportProducts{
                         getWidthInCentimetres(), getHeightInCentimetres())) + ", " + "\n" +
                 amortizationInfo() + ", " + "\n" +
                 ventilationInfo() + ", " + "\n" +
-                "Shipping weight will be: " + shippingCost(getWeight()) + "kg" + ", " + "\n" +
-                "Price of shipping will be: " + shippingWeightCalculate(getWeight()) + "$" + ", " + "\n" +
+                "Shipping weight will be: " + shippingWeightCalculate(getWeight()) + "kg" + ", " + "\n" +
+                "Price of shipping will be: " + shippingCost(getWeight()) + "$" + ", " + "\n" +
                 '}';
     }
 
