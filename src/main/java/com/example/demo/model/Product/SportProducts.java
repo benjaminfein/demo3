@@ -11,9 +11,6 @@ public abstract class SportProducts extends Product implements SportProductServi
         return "Capacity: " + lengthInCentimetres * widthInCentimetres * heightInCentimetres + " cu.cm";
     }
 
-    public SportProducts() {
-    }
-
     public SportProducts(String nameOfProduct, String price, int weight, int lengthInCentimetres, int widthInCentimetres, int heightInCentimetres) {
         super(nameOfProduct, price, weight);
         this.lengthInCentimetres = lengthInCentimetres;

@@ -13,10 +13,6 @@ public final class CyclingProducts extends SportProducts{
         }
     }
 
-    public CyclingProducts() {
-
-    }
-
     public CyclingProducts(String nameOfProduct, String price, int weight, int lengthInCentimetres,
                            int widthInCentimetres, int heightInCentimetres, String material, boolean productPurpose,
                            String typeOfCycling) {
