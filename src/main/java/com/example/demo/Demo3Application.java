@@ -10,7 +10,7 @@ import com.example.demo.model.Transoprt.PassengerPlane;
 import com.example.demo.model.Transoprt.Vehicle;
 import com.example.demo.service.BookService;
 import org.springframework.boot.SpringApplication;
-// I don't know what im doing but im trying to understand
+
 public class Demo3Application {
 
     public static void main(String[] args) {
