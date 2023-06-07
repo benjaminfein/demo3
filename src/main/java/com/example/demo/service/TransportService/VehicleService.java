@@ -8,4 +8,8 @@ public interface VehicleService {
     default float strokeSpeed(int speed) {
         return (float)speed * 816327 / 1000000000;
     }
+
+    default String returnString() {
+        return "qwerty";
+    }
 }
