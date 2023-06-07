@@ -7,7 +7,7 @@ public abstract class Product implements ProductService {
     private String price;
     private int weight;
 
-    public String shipping() {
+    public String shipping( ) {
         if (this.weight > 10f) {
             return "You can't take this product from shop by yourself shipping only";
         } else {
